@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+
+
+
+.assets_font {
+    color: #172617;
+    /* dark font active */
+    color: #263F26;
+    /* dark font hovor */
+    color: #2F4F2F;
+    /* dark font normal */
+    color: #F2E8CF;
+    /* light font active */
+    color: #E6F4EA;
+    /* light font hovor */
+    color: #DADADA;
+    /* light font normal */
+    background-color: #EEFFF7;
+}
+
+
+
+
+.header_my_name {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #F2E8CF;
+}
+
+.header_code_icon {
+    color: #2F4F2F;
+    font-size: 2rem;
+}
+
+@media(max-width: 768px) {
+    .header_code_icon {
+        font-size: 1.5rem;
+    }
+}
+
+.header_page_link {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #DADADA;
+    transition: color 0.25s ease, transform 0.2s ease;
+
+}
+
+.header_page_link:hover {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #E6F4EA;
+}
+
+.header_page_link_active {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #F2E8CF;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.header_resume_link {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2F4F2F;
+}
+
+.header_menu_button {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* font-style: italic; */
+    color: #F2E8CF;
+}
+
+.action_bar_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2F4F2F;
+    transition: color 0.25s ease, transform 0.2s ease;
+
+}
+
+.action_bar_font_active {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #172617;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.action_bar_font:hover {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #263F26;
+}
+
+
+.menu_pannel_code_code_code_font {
+    font-family: "Fira Code", monospace;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #001F3F;
+}
+
+@media(max-width: 768px) {
+    .menu_pannel_code_code_code_font {
+        font-size: 2rem;
+    }
+}
+
+.menu_pannel_resume_link {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #F2E8CF;
+    text-align: center;
+}
+
+
+.footer_link_font_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #172617;
+}
+
+
+.footer_link_font_description {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2F4F2F;
+    transition: color 0.25s ease, transform 0.2s ease;
+
+}
+
+.footer_link_font_description:hover {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1F341F;
+}
+
+.about_us_social_icon_font {
+    color: #2F4F2F;
+    font-size: 1.3rem;
+}
+
+.copytight_message_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #1F341F;
+    text-align: center;
+}
+
+
+
+
+.intro_info_font_hello {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2F4F2F;
+    font-style: italic;
+    padding-left: 4px;
+}
+
+@media(max-width: 768px) {
+    .intro_info_font_hello {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #2F4F2F;
+        font-style: italic;
+        padding-left: 4px;
+    }
+}
+
+
+.intro_info_font_name {
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #172617;
+}
+
+@media(max-width: 768px) {
+    .intro_info_font_name {
+        font-family: 'Inter', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 1000;
+        color: #172617;
+    }
+}
+
+
+.intro_info_font_a {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2F4F2F;
+}
+
+@media(max-width: 768px) {
+    .intro_info_font_a {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #2F4F2F;
+    }
+}
+
+.intro_info_font_changing_texts {
+    font-family: "Fira Code", monospace;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+@media(max-width: 768px) {
+    .intro_info_font_changing_texts {
+        font-family: "Fira Code", monospace;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+.title_my_description_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2F4F2F;
+}
+
+@media(max-width: 768px) {
+    .title_my_description_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #2F4F2F;
+    }
+}
+
+
+.about_me_div_intro_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #F2E8CF;
+}
+
+.about_me_div_intro_arrow_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #EEFFF7;
+}
+
+
+
+
+
+
+
+
+.above_the_pic_text_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #EEFFF7;
+}
+
+@media(max-width: 768px) {
+    .above_the_pic_text_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #EEFFF7;
+    }
+}
+
+
+.moving_text_font {
+    color: #2F4F2F;
+    font-size: 2rem;
+}
+
+@media(max-width: 768px) {
+    .moving_text_font {
+        color: #2F4F2F;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+.highlights_icons {
+    color: #2F4F2F;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .highlights_icons {
+        color: #2F4F2F;
+        font-size: 1.2rem;
+    }
+}
+
+.highlights_title_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #172617;
+}
+
+@media (max-width: 768px) {
+    .highlights_title_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #172617;
+    }
+}
+
+.highlights_description_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #5F6D00;
+}
+
+@media (max-width: 768px) {
+    .highlights_description_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #5F6D00;
+    }
+}
+
+
+.services_title_icon {
+    font-size: 2rem;
+    color: #172617;
+}
+
+@media (max-width: 768px) {
+    .services_title_icon {
+        font-size: 1.5rem;
+        color: #172617;
+    }
+}
+
+.services_title_text {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #2F4F2F;
+}
+
+@media (max-width: 768px) {
+    .services_title_text {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #2F4F2F;
+    }
+}
+
+
+.services_description_icon_font {
+    font-size: 3rem;
+    color: #263F26;
+}
+
+@media (max-width: 768px) {
+    .services_description_icon_font {
+        font-size: 2rem;
+        color: #263F26;
+    }
+}
+
+.services_description_title_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2F4F2F;
+}
+
+@media (max-width: 768px) {
+    .services_description_title_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #2F4F2F;
+    }
+}
+
+.services_description_description_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #5F6D00;
+    margin-top: -7px;
+}
+
+@media (max-width: 768px) {
+    .services_description_description_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #5F6D00;
+        margin-top: -7px;
+        width: 100%;
+    }
+}
+
+.service_learn_more_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2F4F2F;
+}
+
+@media (max-width: 768px) {
+    .service_learn_more_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #2F4F2F;
+    }
+}
+
+.service_learn_more_icon_font {
+    font-size: 0.9rem;
+    color: #9FB800;
+}
+
+@media (max-width: 768px) {
+    .service_learn_more_icon_font {
+        font-size: 0.8rem;
+        color: #9FB800;
+    }
+}
+
+.view_all_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #2F4F2F;
+    transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.view_all_font:hover {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #9FB800;
+}
+
+.view_all_arrow_icon {
+    font-size: 0.9rem;
+    color: #9FB800;
+}
+
+.skills_title_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #263F26;
+}
+
+@media (max-width: 768px) {
+    .skills_title_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #263F26;
+    }
+}
+
+.skills_individual_div_description {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #2F4F2F;
+}
+
+
+.blog_title_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2F4F2F;
+}
+
+@media (max-width: 768px) {
+    .blog_title_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #2F4F2F;
+    }
+}
+
+.blog_date_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #5F6D00;
+}
+
+@media (max-width: 768px) {
+    .blog_date_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #5F6D00;
+    }
+}
+
+
+.contact_page_info_part_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #172617;
+}
+
+@media (max-width: 768px) {
+    .contact_page_info_part_title {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #172617;
+    }
+}
+
+.contact_page_info_part_description {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2F4F2F;
+}
+
+@media (max-width: 768px) {
+    .contact_page_info_part_description {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #2F4F2F;
+    }
+}
+
+.send_a_message_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #172617;
+}
+
+@media (max-width: 768px) {
+    .send_a_message_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #172617;
+    }
+}
+
+.message_receive_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #172617;
+}
+
+.message_receive_description {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #2F4F2F;
+}

@@ -1,0 +1,136 @@
+.moving_blog_parent {
+    /* background-color: yellowgreen; */
+    margin-top: 2rem;
+}
+
+.moving_blog {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    mask-image: linear-gradient(to right,
+            transparent,
+            black 8%,
+            black 92%,
+            transparent);
+}
+
+@media(max-width: 768px) {
+    .moving_blog {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+}
+
+.moving_blog_div_parent {
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: fit-content;
+    animation: blog_movement 20s linear infinite;
+    /* gap: 2rem; */
+}
+
+@media(max-width: 768px) {
+    .moving_blog_div_parent {
+        margin-bottom: 1rem;
+    }
+}
+
+.moving_blog_div_parent:hover {
+    animation-play-state: paused;
+}
+
+@keyframes blog_movement {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+.moving_blog_div_parent_2 {
+    display: flex;
+    width: fit-content;
+    animation: blog_movement_2 20s linear infinite;
+    /* gap: 2rem; */
+}
+
+.moving_blog_div_parent_2:hover {
+    animation-play-state: paused;
+}
+
+@keyframes blog_movement_2 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.moving_blog_group {
+    padding-top: 5px;
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+@media(max-width: 768px) {
+    .moving_blog_group {
+        gap: 1rem;
+    }
+}
+
+
+.moving_blog_group_first_baby {
+    padding-left: 2rem;
+}
+
+@media(max-width: 768px) {
+    .moving_blog_group_first_baby {
+        padding-left: 1rem;
+    }
+}
+
+
+.blog_individual_single {
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+    border: 1px solid #B3C9B3;
+    box-shadow: 0px 4px 8px #B3C9B3;
+    border-radius: 18px;
+    width: 14rem;
+
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .blog_individual_single {
+        width: 11rem;
+    }
+}
+
+.see_more_blog_div {
+    margin-top: -0.5rem;
+}
+
+@media(max-width: 768px) {
+    .see_more_blog_div {
+        margin-top: 0rem;
+    }
+}
