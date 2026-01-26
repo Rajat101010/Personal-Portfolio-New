@@ -25,7 +25,7 @@
 }
 
 
-@media(max-width: 768px) {
+@media(max-width: 1024px) {
     .project_individual_parent {
         margin-top: 1rem;
         gap: 10px;
@@ -47,12 +47,6 @@
     }
 }
 
-/* @media(max-width: 768px) {
-    .project_individual_parent {
-        margin-top: 1rem;
-        gap: 10px;
-    }
-} */
 
 .project_individual {
     background-color: #F1FAF5;
@@ -60,7 +54,7 @@
     border-radius: 8px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1024px) {
     .project_individual {
         width: 20rem;
     }

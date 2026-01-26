@@ -165,6 +165,13 @@
     gap: 0.5rem;
     align-items: center;
     margin: 0.5rem 0rem;
+    transition: transform 0.25s ease-in-out;
+    will-change: transform;
+    cursor: pointer;
+}
+
+.about_me_div_intro_parent:hover {
+    transform: scale(1.04);
 }
 
 .about_me_div_intro {

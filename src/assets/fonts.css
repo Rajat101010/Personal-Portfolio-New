@@ -693,3 +693,122 @@
         color: #2F4F2F;
     }
 }
+
+
+.about_title_icon {
+    font-size: 1.8rem;
+    color: #172617;
+}
+
+@media (max-width: 768px) {
+    .about_title_icon {
+        font-size: 1.3rem;
+        color: #172617;
+    }
+}
+
+
+.title_my_description_another_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #2F4F2F;
+}
+
+@media(max-width: 768px) {
+    .title_my_description_another_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #2F4F2F;
+    }
+}
+
+
+
+.about_me_skill_title_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #263F26;
+}
+
+
+
+.education_college_name_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #263F26;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .education_college_name_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #263F26;
+        text-align: center;
+    }
+}
+
+.education_college_address_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2F4F2F;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .education_college_address_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #2F4F2F;
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+.education_college_degree_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2F4F2F;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .education_college_degree_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #2F4F2F;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.education_college_degree_duration_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2F4F2F;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .education_college_degree_duration_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #2F4F2F;
+        text-align: center;
+        margin-top: 5px;
+    }
+}

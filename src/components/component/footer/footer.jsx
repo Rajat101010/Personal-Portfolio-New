@@ -21,7 +21,7 @@ function Footer() {
                         </div>
                         <div className='footer_common_div_links'>
                             <font>
-                                <Link to="/about-me" className="no-highlight footer_link_font_description">
+                                <Link to="/about" className="no-highlight footer_link_font_description">
                                     About Me
                                 </Link>
                             </font>
@@ -65,6 +65,20 @@ function Footer() {
                                     </Link>
                                 </font>
                             </div>
+                            <div className='footer_external_link'>
+                                <font>
+                                    <Link to="https://flavora-delta.vercel.app/" className="no-highlight footer_link_font_description footer_external_link">
+                                        Flavora <FiExternalLink style={{ paddingLeft: "3px", fontSize:"0.8rem"  }} />
+                                    </Link>
+                                </font>
+                            </div>
+                            <div className='footer_external_link'>
+                                <font>
+                                    <Link to="https://rajat101010.github.io/Anish-Barber/" className="no-highlight footer_link_font_description footer_external_link">
+                                        Barber Shop <FiExternalLink style={{ paddingLeft: "3px", fontSize:"0.8rem"  }} />
+                                    </Link>
+                                </font>
+                            </div>
                         </div>
                     </div>
                     <div className='footer_portfolio_div footer_common_div'>
@@ -84,6 +98,11 @@ function Footer() {
                                     Certificates
                                 </Link>
                             </font>
+                            <font>
+                                <Link to="/services" className="no-highlight footer_link_font_description">
+                                    Services
+                                </Link>
+                            </font>
                         </div>
                     </div>
                     <div className='footer_quick_links_div footer_common_div'>
@@ -93,6 +112,11 @@ function Footer() {
                             </font>
                         </div>
                         <div className='footer_common_div_links'>
+                            <font>
+                                <Link to="/services" className="no-highlight footer_link_font_description">
+                                    Services
+                                </Link>
+                            </font>
                             <font>
                                 <Link to="/blog" className="no-highlight footer_link_font_description">
                                     Blog

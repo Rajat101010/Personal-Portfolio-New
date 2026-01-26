@@ -17,7 +17,6 @@ import Services from './main_pages/services/services';
 import Blogs from './main_pages/blogs/blogs';
 import ContactMe from './main_pages/contact_me/contact_me';
 
-import AboutMe from './main_pages/about_me/about_me';
 import Experience from './main_pages/experience/experience';
 import Education from './main_pages/education/education';
 
@@ -39,7 +38,6 @@ function App() {
           <Route path='/blog' element={<Blogs />} />
           <Route path='/contact-me' element={<ContactMe />} />
 
-          <Route path='/about-me' element={<AboutMe />} />
           <Route path='/experience' element={<Experience />} />
           <Route path='/education' element={<Education />} />
 

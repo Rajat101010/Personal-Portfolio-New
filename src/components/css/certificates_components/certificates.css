@@ -1,0 +1,63 @@
+.certificate_another_grand_parent_another {
+    margin: 3rem 5rem;
+}
+
+@media(max-width: 1300px) {
+    .certificate_another_grand_parent_another {
+        margin: 2rem 3rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .certificate_another_grand_parent_another {
+        margin: 1.5rem 0.5rem 0rem 0.5rem;
+    }
+}
+
+
+.certificate_description_div_individual_mini_service {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    /* background-color: #F2E8CF; */
+    background-color: #E6F4EA;
+    border: 2px solid #B3C9B3;
+    border-radius: 18px;
+    padding: 1.3rem;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media(max-width: 768px) {
+    .certificate_description_div_individual_mini_service {
+        padding: 0.9rem;
+    }
+}
+
+
+
+.certificate_page_division_grand_parent {
+    display: grid;
+    gap: 20px;
+    margin-top: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media(max-width: 1300px) {
+    .certificate_page_division_grand_parent {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width: 968px) {
+    .certificate_page_division_grand_parent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 580px) {
+    .certificate_page_division_grand_parent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

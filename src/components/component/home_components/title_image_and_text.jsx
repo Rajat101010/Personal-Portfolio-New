@@ -103,7 +103,7 @@ function TitleAndText() {
                             </Link>
                         </div>
                         <div className='about_me_div_intro__grand_parent'>
-                            <Link to="/about-me" className="no-highlight">
+                            <Link to="/about" className="no-highlight">
                                 <div className='about_me_div_intro_parent'>
                                     <div className='about_me_div_intro'>
                                         <font className='about_me_div_intro_font'>
