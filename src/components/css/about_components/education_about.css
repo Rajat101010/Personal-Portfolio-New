@@ -30,10 +30,16 @@
     /* height: 20rem; */
 }
 
-.college_logo_image{
+@media(max-width: 1024px) {
+    .education_individual_child {
+        padding: 1rem 0.5rem;
+    }
+}
+
+.college_logo_image {
     height: 5rem;
 }
 
-.education_last_part{
+.education_last_part {
     margin-bottom: 2rem;
 }
