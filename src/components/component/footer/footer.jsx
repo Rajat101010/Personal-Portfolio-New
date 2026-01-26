@@ -46,21 +46,21 @@ function Footer() {
                         <div className='footer_common_div_links external_link_of_project'>
                             <div className='footer_external_link'>
                                 <font>
-                                    <Link to="/about-me" className="no-highlight footer_link_font_description footer_external_link">
+                                    <Link to="https://air-runner.vercel.app/" className="no-highlight footer_link_font_description footer_external_link">
                                         Air Runner <FiExternalLink style={{ paddingLeft: "3px", fontSize:"0.8rem" }} />
                                     </Link>
                                 </font>
                             </div>
                             <div className='footer_external_link'>
                                 <font>
-                                    <Link to="/education" className="no-highlight footer_link_font_description footer_external_link">
+                                    <Link to="https://kp-26-hub.vercel.app/" className="no-highlight footer_link_font_description footer_external_link">
                                         KP-26 Hub <FiExternalLink style={{ paddingLeft: "3px", fontSize:"0.8rem"  }} />
                                     </Link>
                                 </font>
                             </div>
                             <div className='footer_external_link'>
                                 <font>
-                                    <Link to="/experience" className="no-highlight footer_link_font_description footer_external_link">
+                                    <Link to="https://rajat101010.github.io/Fly-High-Airline/index.html" className="no-highlight footer_link_font_description footer_external_link">
                                         Fly High <FiExternalLink style={{ paddingLeft: "3px", fontSize:"0.8rem"  }} />
                                     </Link>
                                 </font>

@@ -11,11 +11,15 @@ I craft intuitive UI/UX designs focused on usability, accessibility, and user be
 `;
 
 export const Architecture_Description = `
-I provide architectural design services focused on functional planning, aesthetic excellence, and sustainable solutions, creating spaces that balance creativity, practicality, and client vision from concept to execution.
+I provide architectural design services focused on functional planning and sustainable solutions, creating spaces that balance practicality and client vision from concept to execution.
 `;
 
 export const Product_Description = `
 I design user-centered digital products by combining research, strategy, and aesthetics to create functional, scalable, and engaging solutions that solve real user problems.
+`;
+
+export const Logo_Description = `
+I design distinctive logos focused on clarity, brand identity, and visual balance, ensuring strong recognition and meaningful connections across digital and print platforms.
 `;
 
 export const AirRunner_Description = `
@@ -33,4 +37,52 @@ Fly High Airline is a modern airline website project focused on seamless booking
 
 export const ContactMe_Description = `
 Whether you have a project in mind, need help with frontend development or UI/UX design, or just want to connect, I’d love to hear from you.
+`;
+
+
+export const First_Arrival_at_KIIT_University_Description = `
+Stepping into KIIT University for the first time was a mix of excitement, curiosity, and nervous energy. Everything felt new—the vast campus, the unfamiliar faces, and the fast-paced college environment. As a fresher, each day brought a new experience, from exploring classrooms to navigating hostel life. Meeting people from different backgrounds, sharing stories, and slowly turning strangers into friends made the journey even more special. Those first moments at KIIT marked the beginning of independence, learning, and personal growth, shaping memories that would define the start of my university life.
+`;
+
+
+
+
+export const OC_Member_Description = `
+Contributed as an Organizing Committee member, supporting event planning.
+`;
+
+export const VFG_Internship_Description = `
+Completed Sales Internship with practical exposure to sales strategies.
+`;
+
+export const Aorta_Internship_Description = `
+Successfully completed Marketing Internship with hands-on experience.
+`;
+
+export const Introduction_to_Tableau_Description = `
+Completed Introduction to Tableau course with practical data visualization skills.
+`;
+
+export const Digital_Advertising_Description = `
+
+`;
+
+export const Digital_Marketing_Strategy_Description = `
+
+`;
+
+export const Excel_Regression_Analysis_Description = `
+
+`;
+
+export const Fundamentals_of_Digital_Marketing_Description = `
+
+`;
+
+export const Introduction_to_Digital_Marketing_Description = `
+
+`;
+
+export const Python_and_Django_Description = `
+
 `;

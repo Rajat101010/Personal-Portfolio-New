@@ -1,0 +1,19 @@
+.project_another_grand_parent {
+    /* margin-top: 4rem; */
+    margin: 3rem 5rem;
+    /* background-color: #FCF7EE; */
+}
+
+@media(max-width: 1300px) {
+    .project_another_grand_parent {
+        margin: 2rem 3rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .project_another_grand_parent {
+        /* margin-top: 3rem; */
+        margin: 1.5rem 0.5rem;
+    }
+}
+

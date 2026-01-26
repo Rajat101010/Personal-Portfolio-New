@@ -593,3 +593,103 @@
     font-weight: 400;
     color: #2F4F2F;
 }
+
+.blog_title_message_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #263F26;
+}
+
+@media (max-width: 768px) {
+    .blog_title_message_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #263F26;
+    }
+}
+
+.First_Arrival_at_KIIT_University_text_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #263F26;
+}
+
+@media (max-width: 768px) {
+    .First_Arrival_at_KIIT_University_text_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: #263F26;
+    }
+}
+
+
+.First_Arrival_at_KIIT_University_description_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #2F4F2F;
+}
+
+@media(max-width: 768px) {
+    .First_Arrival_at_KIIT_University_description_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #2F4F2F;
+    }
+}
+
+.First_Arrival_at_KIIT_University_tag_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #2F4F2F;
+}
+
+@media(max-width: 768px) {
+    .First_Arrival_at_KIIT_University_tag_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #2F4F2F;
+    }
+}
+
+.blog_written_by_name_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2F4F2F;
+}
+
+@media(max-width: 768px) {
+    .blog_written_by_name_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #2F4F2F;
+    }
+}
+
+
+
+
+.certificate_description_title_font {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2F4F2F;
+}
+
+@media (max-width: 768px) {
+    .certificate_description_title_font {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #2F4F2F;
+    }
+}

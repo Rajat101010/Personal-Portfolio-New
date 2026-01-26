@@ -288,7 +288,7 @@ function Services() {
                                         </p>
                                     </font>
                                     <div className='service_view_sample_contact_parent'>
-                                        <Link to="/" className="no-highlight">
+                                        <Link to="https://drive.google.com/drive/folders/14ieL6fICtFv0tJHe2R_3QQLRP3KoS1Ui?usp=sharing" className="no-highlight">
                                             <div className='service_view_sample_contact_button'>
                                                 <font className='service_learn_more_font'>
                                                     View Sample

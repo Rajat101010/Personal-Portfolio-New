@@ -3,14 +3,12 @@
 
 
     background: transparent;
-    /* navbar itself stays clear */
-
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
 
 
     /* width: 100%; */
-    height: 3rem;
+    height: 5rem;
 
     position: fixed;
     top: 0rem;
@@ -35,7 +33,7 @@
 
 @media(max-width: 768px) {
     .header_grand_parent_another {
-        height: 2rem;
+        height: 3rem;
         left: 0rem;
         right: 0rem;
     }

@@ -1,6 +1,6 @@
 import NoneHeader from '../../components/component/header/none_header.jsx';
 
-import ContactMeForm from '../../components/component/contact_me_components/contact_form.jsx';
+import ProjectsComponents from '../../components/component/projects_components/projects.jsx';
 
 import Footer from '../../components/component/footer/footer.jsx'
 
@@ -9,7 +9,7 @@ function Projects() {
     return (
             <main>
                 <NoneHeader />
-                <ContactMeForm />
+                <ProjectsComponents />
                 <Footer />
 
             </main>

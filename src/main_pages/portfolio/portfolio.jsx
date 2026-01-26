@@ -1,6 +1,7 @@
 import PortfolioHeader from '../../components/component/header/portfolio_header.jsx';
 
-import ContactMeForm from '../../components/component/contact_me_components/contact_form.jsx';
+import PortfolioProjectsComponents from '../../components/component/portfolio_components/project_portfolio.jsx';
+import PortfolioCertificatesComponents from '../../components/component/portfolio_components/certificate_portfolio.jsx';
 
 import Footer from '../../components/component/footer/footer.jsx'
 
@@ -9,7 +10,8 @@ function Portfolio() {
     return (
             <main>
                 <PortfolioHeader />
-                <ContactMeForm />
+                <PortfolioProjectsComponents />
+                <PortfolioCertificatesComponents />
                 <Footer />
 
             </main>

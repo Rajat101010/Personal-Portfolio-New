@@ -1,0 +1,46 @@
+.certificate_title_new_grand_parent {
+    margin-bottom: 2rem;
+}
+
+
+.certificate_description_div_individual {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    /* background-color: #F2E8CF; */
+    background-color: #E6F4EA;
+    border: 2px solid #B3C9B3;
+    border-radius: 18px;
+    padding: 1.3rem;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media(max-width: 768px) {
+    .certificate_description_div_individual {
+        padding: 0.9rem;
+        width: 16rem;
+    }
+}
+
+
+.certificate_title_new_parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.certificate_provider_and_date {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.certificate_title{
+    margin-top: 2rem;
+}
