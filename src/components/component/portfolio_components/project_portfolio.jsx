@@ -75,7 +75,9 @@ function Projects() {
                   </p>
                 </font>
               </div>
-              <a href="https://air-runner.vercel.app/" className="no-highlight">
+              <a
+                target="_blank"
+                rel="noopener noreferrer" href="https://air-runner.vercel.app/" className="no-highlight">
                 <div className='service_learn_more'>
                   <div className='view_page_buttom'>
                     <font className='service_learn_more_font'>
@@ -135,7 +137,9 @@ function Projects() {
                   </p>
                 </font>
               </div>
-              <a href="https://kp-26-hub.vercel.app/" className="no-highlight">
+              <a
+                target="_blank"
+                rel="noopener noreferrer" href="https://kp-26-hub.vercel.app/" className="no-highlight">
                 <div className='service_learn_more'>
                   <div className='view_page_buttom'>
                     <font className='service_learn_more_font'>
@@ -195,7 +199,9 @@ function Projects() {
                   </p>
                 </font>
               </div>
-              <a href="https://rajat101010.github.io/Fly-High-Airline/index.html" className="no-highlight">
+              <a
+                target="_blank"
+                rel="noopener noreferrer" href="https://rajat101010.github.io/Fly-High-Airline/index.html" className="no-highlight">
                 <div className='service_learn_more'>
                   <div className='view_page_buttom'>
                     <font className='service_learn_more_font'>
