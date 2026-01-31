@@ -6,6 +6,12 @@
     /* background-color: yellow; */
 }
 
+@media (max-width: 1224px) {
+    .highlights {
+        margin: 31rem 0px 0px 0px;
+    }
+}
+
 @media (max-width: 768px) {
     .highlights {
         margin: 19rem 0px 0px 0px;
@@ -26,6 +32,19 @@
     padding: 0rem 4rem;
     border-right: 1px solid #8FAF8F;
 
+}
+
+@media (max-width: 1224px) {
+    .highlights_divs {
+        /* background-color: yellowgreen; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0rem 2rem;
+        border-right: 1px solid #8FAF8F;
+
+    }
 }
 
 @media (max-width: 768px) {

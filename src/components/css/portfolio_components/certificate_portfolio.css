@@ -18,7 +18,7 @@
 }
 
 
-@media(max-width: 768px) {
+@media(max-width: 1024px) {
     .certificate_description_div_individual {
         padding: 0.9rem;
         width: 16rem;
